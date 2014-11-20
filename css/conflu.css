@@ -1,0 +1,88 @@
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.demo-2 .large-header {
+	background-image: url('../img/conflu01.jpg');
+	background-position: center bottom;
+}
+
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+
+
+.demo-2 .main-title {
+	font-family: 'Fascinate', 'Arial Narrow', Arial, sans-serif;
+	font-weight: normal;
+	font-size: 8em;
+	padding-left: 10px;
+	color:rgba(39,37,149,0.5);
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.demo-2 .main-title::before {
+	content: '';
+	width: 20vw;
+	height: 20vw;
+	min-width: 3.5em;
+	min-height: 3.5em;
+	
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	z-index: -1;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	
+
+	.demo-2 .main-title {
+		font-size: 4em;
+	}
+}
+
+.teaser-button{
+	text-align: center;
+	padding: 5px 40px;
+	display: inline-block;
+	background: rgba(200, 37, 41, 0.8);
+	margin: 0px 4px;
+	color: #fff;
+	font-size: 20px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.teaser-button:hover{
+	background: rgba(242, 208, 20, 0.8);
+}
