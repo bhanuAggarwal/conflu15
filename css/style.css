@@ -11,7 +11,7 @@
 
 body {
 	background: #222438;
-	font-family: Georgia, Times New Roman, Times, serif;
+	font-family: ;
 	font-weight: bold;
 	font-size: 20px;
 	text-align: center;
@@ -27,34 +27,25 @@ body {
 	padding-top: 400px;
 }
 
-h1 {
+h2 {
 	font-size: 120px;
 	font-weight: normal;
 	margin: 0;
-	font-family: 'Luckiest Guy',Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,Gadget,sans-serif;
+	font-family: 'Great Vibes', cursive;
 	text-transform: uppercase;
-	color: #FFB000;
+	color: #00000;
 	text-shadow: 0 2px 1px #000;
 	line-height: .8;
 }
 
-h2 {
-	font-size: 150px;
-	font-weight: normal;
-	margin: 0;
-	color: #FFB000;
-	padding: 60px;
-	text-shadow: 0 2px 1px #000;
-	font-family: 'Luckiest Guy',Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,Gadget,sans-serif;
-	text-transform: uppercase;
-}
-h3 {
+
+h3{
 	font-size: 60px;
 	font-weight: normal;
 	margin: 0;
 	color: #FFB000;
 	text-shadow: 0 2px 1px #000;
-	font-family: 'Luckiest Guy',Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,Gadget,sans-serif;
+	font-family: 'Great Vibes', cursive;
 	text-transform: uppercase;	
 }
 
@@ -147,6 +138,7 @@ blockquote {
 }
 .pin-frame h2 { margin-top: 120px; }
 #pin-frame-pin {
+	//background-attachment:fixed;
 	background-image: url('../img/conflu01.jpg');
 	background-position: center bottom;
 	background-size: cover;
@@ -316,4 +308,15 @@ blockquote {
 }
 #newversion a:hover span {
 	text-decoration: underline;
+}
+
+.startingText {
+	font-size:30px;
+	//display: inline-block;
+	position: absolute !important;
+	bottom:1%;
+}
+
+.fontSize80{
+	font-size:60px;
 }

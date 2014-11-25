@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 	<head>
+	   <style> 
+			@font-face {
+				font-family: myFirstFont;
+				src: url(fonts/ananda.ttf);
+			}
+
+			.fontStyle{
+				//font-weight: normal;
+				margin: 0;
+				color: #ffffff;
+				padding: 40px;
+				text-shadow: 0 2px 1px #000;
+				text-transform: uppercase;
+				font-family:myFirstFont;
+			}
+		</style>
 		<title>Confluence'15</title>
-		<link href='http://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/normalize.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
         
 	</head>
 	<body>
+	
 		<div id="content-wrapper">
-		
-
-		
-			<div id="examples-pin">
-				<div id="pin-frame-pin" class="pin-frame"><h2>Confluence'15</h2></div>
+		<div id="examples-pin">
+				<div id="pin-frame-pin" class="pin-frame"><!--<h1 class="fontStyle fontSize100">Confluence </h1>--><h1 class="fontStyle startingText"><blink>scroll down to reveal their destination</blink></h1></div>
 				<div id="pin-frame-slide" class="pin-frame">
-					<iframe width="1350" height="660" src="http://www.youtube.com/embed/PF0tpvBNWtQ" frameborder="0" allowfullscreen></iframe>
+					<iframe width="1350" height="560" src="http://www.youtube.com/embed/PF0tpvBNWtQ" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div id="examples-1">
-				<h2 id="fade-it">Wait For the Next Step...!!</h2>
+				<h3 id="fade-it" class="fontStyle fontSize80" style="padding:100px">Lets start our journey together...</h3> <br/><h3 class="fontStyle" style="font-size:30px">Like us on facebook</h3>
+				<iframe src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80" href ="http://www.facebook.com/Conflu" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe>
 			</div>
 		</div>
+		
 	</body>
 	
 	<script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>
@@ -44,7 +60,7 @@
 				
 				
 				// set duration, in pixels scrolled, for pinned element
-				var pinDur = 3000;
+				var pinDur = 1000;
 				// create animation timeline for pinned element
 				var pinAnimations = new TimelineLite();
 				pinAnimations
